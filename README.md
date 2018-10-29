@@ -8,26 +8,18 @@ Python コードから REST API 経由でデータを取得するため、直接
 事前準備
 --------
 
-0. 既に以下を導入済みのものとして説明を記載します。
+1. 既に以下を導入済みのものとして説明を記載します。
 
     * BaaS サーバ
     * Jupyter Notebook
 
-1. 必要な Python パッケージのインストール
+2. 必要な Python パッケージのインストール
 
-    サンプルでは以下のパッケージを利用します。
-    * plotly, pprint, python-dateutil
-
-    ~~~
-    $ pip install plotly pprint python-dateutil
-    ~~~
-
-2. モバイルバックエンド基盤 Python SDK のインストール
-
-    モバイルバックエンド基盤 Python SDK をインストールします。
+モバイルバックエンド基盤 Python SDK と、必要なライブラリ(pands, matplotlib など)
+を pip でインストールします。
 
     ~~~
-    $ pip install necbaas
+    $ pip install necbaas pandas matplotlib python-dateutil
     ~~~
 
 3. サンプルデータ登録
