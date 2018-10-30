@@ -15,10 +15,10 @@ Python コードから REST API 経由でデータを取得するため、直接
 
 ### 2. 必要な Python パッケージのインストール
 
-モバイルバックエンド基盤 Python SDK と、必要なライブラリ(pandas, matplotlib など)
+モバイルバックエンド基盤 Python SDK と、必要なライブラリ(pandas, matplotlib)
 を pip でインストールします。
 
-    $ pip install necbaas pandas matplotlib python-dateutil
+    $ pip install necbaas pandas matplotlib
 
 ### 3. サンプルデータ登録
 
